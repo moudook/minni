@@ -5,7 +5,6 @@ Run AI models directly on Android phones without internet. Works on all devices,
 ## Structure
 ```
 ├── idea.md                    # Project goals
-├── .qwen/                     # AI assistant guides
 ├── .model/                    # Model configs and data
 ├── models_capability/         # Model performance tests
 │   ├── vision/                # Image models
