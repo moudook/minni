@@ -1,0 +1,115 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+.venv/
+env.bak/
+venv.bak/
+
+# Build outputs
+build/
+dist/
+*.egg-info/
+coverage/
+.nyc_output/
+.next/
+.nuxt/
+out/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Sensitive model files
+.model/*/
+!.model/README.md
+!.model/metadata_template.md
+!.model/progress.md
+!.model/framework_condition.md
+
+# Local configuration
+config/local.json
+config/development.json
+
+# Private keys and certificates
+*.key
+*.pem
+*.crt
+*.cert
+*.cer
+*.p12
+*.jks
+
+# Authentication files
+auth.json
+credentials.json
+secrets.json
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# User-specific files
+*.user
+*.userprefs
+
+# Testing artifacts
+coverage/
+.nyc_output/
+.jest/
+
+# Mobile-specific
+*.apk
+*.aab
+*.ipa
+
+# Binary model files (if stored locally)
+*.bin
+*.onnx
+*.pb
+*.tflite
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+#refrences
+refrences/
+
+#models
+.qwen/
