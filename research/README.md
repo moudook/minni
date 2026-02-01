@@ -10,6 +10,8 @@ research/
 ├── gpu_acceleration/          # When GPU is available
 ├── hardware_compatibility/    # Works on different phones
 ├── android_development/       # Android specific stuff
+├── logic_reasoning/           # Symbolic AI & Solvers
+├── signal_processing/         # DSP & Sensor data
 ├── performance_benchmarks/    # Speed tests
 └── model_quantization/        # Making models smaller
 ```

@@ -1,0 +1,23 @@
+{
+  "tiers": {
+    "low": {
+      "min_ram_mb": 2048,
+      "max_model_size_mb": 500,
+      "preferred_quantization": "int8",
+      "allow_gpu": false
+    },
+    "medium": {
+      "min_ram_mb": 6144,
+      "max_model_size_mb": 2048,
+      "preferred_quantization": "int4",
+      "allow_gpu": true
+    },
+    "high": {
+      "min_ram_mb": 12288,
+      "max_model_size_mb": 8192,
+      "preferred_quantization": "fp16",
+      "allow_gpu": true,
+      "allow_npu": true
+    }
+  }
+}

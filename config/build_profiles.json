@@ -1,0 +1,23 @@
+{
+  "profiles": {
+    "debug": {
+      "logging": "verbose",
+      "optimization_level": "O0",
+      "enable_profiling": true,
+      "enable_assertions": true
+    },
+    "release": {
+      "logging": "error_only",
+      "optimization_level": "O3",
+      "enable_profiling": false,
+      "enable_assertions": false,
+      "strip_symbols": true
+    },
+    "profile": {
+      "logging": "info",
+      "optimization_level": "O2",
+      "enable_profiling": true,
+      "enable_assertions": false
+    }
+  }
+}

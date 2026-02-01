@@ -113,3 +113,5 @@ refrences/
 
 #models
 .qwen/
+.claude/
+.model/

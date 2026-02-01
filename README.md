@@ -10,7 +10,9 @@ Run AI models directly on Android phones without internet. Works on all devices,
 │   ├── vision/                # Image models
 │   ├── language/              # Text models
 │   ├── audio/                 # Audio models
-│   └── multimodal/            # Multi type models
+│   ├── multimodal/            # Multi type models
+│   ├── logic/                 # Reasoning & Symbolic models
+│   └── signal/                # Signal processing & Sensor data
 ├── src/                       # Source code
 │   ├── core/                  # Main functions
 │   ├── android/               # Android specific

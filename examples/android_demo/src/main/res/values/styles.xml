@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Minni Demo</string>
+    <!-- Basic theme styles -->
+    <style name="Theme.Minni" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#6200EE</item>
+        <item name="colorPrimaryDark">#3700B3</item>
+        <item name="colorAccent">#03DAC5</item>
+    </style>
+</resources>

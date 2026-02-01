@@ -1,0 +1,25 @@
+{
+  "models": [
+    {
+      "id": "mobilenet_v2",
+      "type": "vision",
+      "version": "1.0",
+      "path": "vision/mobilenet_v2.tflite",
+      "required_tier": "low"
+    },
+    {
+      "id": "llama_3_8b_quant",
+      "type": "language",
+      "version": "3.0",
+      "path": "language/llama3_8b_int4.bin",
+      "required_tier": "medium"
+    },
+    {
+      "id": "whisper_tiny",
+      "type": "audio",
+      "version": "1.0",
+      "path": "audio/whisper_tiny.tflite",
+      "required_tier": "low"
+    }
+  ]
+}

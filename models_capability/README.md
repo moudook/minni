@@ -8,7 +8,9 @@ models_capability/
 ├── vision/           # Image models
 ├── language/         # Text models
 ├── audio/            # Sound models
-└── multimodal/       # Multiple types together
+├── multimodal/       # Multiple types together
+├── logic/            # Reasoning & Symbolic models (non-LLM)
+└── signal/           # Signal processing & Sensor data
 ```
 
 ## Test These Things

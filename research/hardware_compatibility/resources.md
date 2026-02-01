@@ -1,18 +1,14 @@
 # Resources: Hardware Compatibility
 
-## Papers
-- [Paper Title](link) - Brief description
+## Architecture
+- [ARM Architecture Reference](https://developer.arm.com/documentation/ddi0487/latest) - Instruction sets.
+- [Android ABI Management](https://developer.android.com/ndk/guides/abis) - NDK guide to architectures.
 
-## Articles/Tutorials
-- [Article Title](link) - Brief description
+## Device Ecosystem
+- [Android Compatibility Definition Document (CDD)](https://source.android.com/compatibility/cdd) - The rules device makers must follow.
+- [AI Benchmark](https://ai-benchmark.com/) - Ranking of mobile SoCs by AI performance.
+- [Android Distribution Dashboard](https://apilevels.com/) - Market share of OS versions.
 
-## Tools/Libraries
-- [Tool Name](link) - Brief description
-  - Useful for hardware compatibility testing
-
-## Documentation
-- [Documentation Link](link) - Brief description
-
-## Hardware Specifications
-- [ARM Architecture Guide](https://developer.arm.com/documentation/)
-- [Android Hardware Compatibility Guide](https://source.android.com/compatibility)
+## Optimization
+- [Android App Bundles](https://developer.android.com/guide/app-bundle) - Reducing download size.
+- [Performance Class](https://developer.android.com/guide/topics/media/media-performance-class) - Categorizing devices by capability.

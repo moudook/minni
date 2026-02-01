@@ -1,19 +1,17 @@
 # Resources: GPU Acceleration
 
-## Papers
-- [Paper Title](link) - Brief description
+## APIs & Frameworks
+- [Vulkan Spec](https://www.khronos.org/registry/vulkan/) - The primary target for cross-vendor GPU compute.
+- [Kompute](https://kompute.cc/) - General Purpose GPU Compute Framework built on Vulkan.
+- [TFLite GPU Delegate](https://www.tensorflow.org/lite/performance/gpu) - Official Google delegate documentation.
 
-## Articles/Tutorials
-- [Article Title](link) - Brief description
+## Android Specifics
+- [Android NDK AHardwareBuffer](https://developer.android.com/ndk/reference/group/a-hardware-buffer) - Zero-copy memory sharing.
+- [Android Thermal Mitigation](https://source.android.com/devices/thermal/mitigation) - Handling heat and throttling.
 
-## Tools/Libraries
-- [Tool Name](link) - Brief description
-  - Good for GPU acceleration when available
+## OpenCL
+- [OpenCL Registry](https://www.khronos.org/opencl/) - Standard specification.
+- [Qualcomm Adreno OpenCL](https://developer.qualcomm.com/software/adreno-gpu-sdk/opencl) - Vendor-specific guide.
 
-## Documentation
-- [Documentation Link](link) - Brief description
-
-## Android-Specific APIs
-- [NNAPI Documentation](https://developer.android.com/reference/androidx/ml/model-optimizer/nnapi) - Android Neural Networks API
-- [OpenCL Documentation](link) - OpenCL for cross-platform compute
-- [Vulkan Compute Shaders](link) - Advanced GPU compute options
+## Tutorials
+- [Mobile GPU Compute](https://github.com/google/clspv) - Compiling OpenCL C to Vulkan SPIR-V.

@@ -1,20 +1,14 @@
 # Resources: Model Quantization
 
-## Papers
-- [Paper Title](link) - Brief description
-
-## Articles/Tutorials
-- [Article Title](link) - Brief description
-
-## Tools/Libraries
-- [Tool Name](link) - Brief description
-  - Quantization tool for mobile deployment
-
-## Documentation
-- [TensorFlow Lite Quantization Guide](https://www.tensorflow.org/lite/performance/quantization)
-- [PyTorch Quantization Guide](https://pytorch.org/tutorials/advanced/static_quantization_tutorial.html)
-
 ## Techniques
-- Post-training quantization
-- Quantization-aware training
-- INT8, FP16, and mixed precision methods
+- [Post-Training Quantization](https://www.tensorflow.org/lite/performance/post_training_quantization) - TFLite guide.
+- [Quantization Aware Training](https://pytorch.org/docs/stable/quantization.html) - PyTorch documentation.
+- [GGML/GGUF](https://github.com/ggerganov/ggml) - Leading format for quantized LLMs on CPU.
+
+## Tools
+- [TensorFlow Model Optimization Toolkit](https://www.tensorflow.org/model_optimization) - Pruning and Clustering.
+- [AIET (AI Edge Torch)](https://github.com/pytorch/executorch) - PyTorch's new edge stack.
+- [Netron](https://netron.app/) - Tool for visualizing quantized graphs.
+
+## Papers
+- [Quantization and Training of Neural Networks for Efficient Integer-Arithmetic-Only Inference](https://arxiv.org/abs/1712.05877) - The seminal paper on integer quantization.
